@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact {
+            background-color: white;
+            width: 85%;
+            margin: 30px auto;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .contact h2,
+        .contact > p {
+            text-align: center;
+        }
+        .details {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .info, .form {
+            width: 50%;
+        }
+        .form input,
+        .form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        .form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #555;
+            color: white;
+            border: none;   
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="brand">
+            <img src="tung.jpg" class="logo" alt="Logo">
+            <h1>MALANES REKAM YAW CREATIVES</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="contact.html" class="active">CONTACT</a>
+    </nav>
+
+    <div class="contact">
+
+        <h2>Get In Touch</h2>
+        <p>Have a question or a project in mind? Reach out to us below.</p>
+
+        <div class="details">
+
+            <div class="info">
+                <h3>CONTACT DETAILS</h3>
+
+                <p><b>EMAIL</b><br>
+                20245368s.ubaguio.edu.ph</p>
+
+                <p><b>STUDIO ADDRESS</b><br>
+                Baguio City, Philippines</p>
+
+                <p><b>BUSINESS HOURS</b><br>
+                Mon - Fri: 10:00 AM - 5:00 PM</p>
+            </div>
+
+            <div class="form">
+                <form>
+                    <label>FULL NAME</label>
+                    <input type="text" placeholder="Your name" required>
+
+                    <label>EMAIL ADDRESS</label>
+                    <input type="email" placeholder="Your email" required>
+
+                    <label>COMMENT / MESSAGE</label>
+                    <textarea rows="3" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>2026 Malanes Rekam Yaw Creatives. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
